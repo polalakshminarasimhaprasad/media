@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaqueries</title>
+</head>
+<style>
+    table,tr,td{
+        border: 2px solid greenyellow;
+    }
+    div{
+        margin-top: 2vw;
+    }
+    body{
+    background-color: #0e1de9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 300px;
+        
+    }
+    img{
+        height: 22vw;
+        width:22vw;
+    }
+    @media screen and (min-width:325px) and (max-width:425px){
+        .div1,.div2{
+            display: none;
+        }
+    }
+    @media screen and (min-width:425px) and (max-width:768px){
+       .div1,.div3{
+        display: none;
+       }
+    }
+    @media screen and (min-width:768px) and (max-width:1024px){
+       .div2,.div3{
+        display: none;
+       }
+    }
+    @media screen and (min-width:1024px) and (max-width:2024px){
+       .div2,.div3{
+        display: none;
+       }
+    }
+    @media screen and (min-width:100px) and (max-width:325px){
+       .div1,.div2{
+        display: none;
+       }
+    }
+    
+    
+</style>
+<body>
+    <div class="div1">
+        <table>
+            <tr>
+                <td><img src="./IMG/images1.jpeg"></td>
+                <td><img src="./IMG/images10.jpeg"></td>
+                <td><img src="./IMG/images11.jpeg"></td>
+                <td><img src="./IMG/images12.jpeg"></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/images13.jpeg"></td>
+                <td><img src="./IMG/images14.jpeg"></td>
+                <td><img src="./IMG/images15.jpeg"></td>
+                <td><img src="./IMG/images16.jpeg"></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/images17.jpeg"></td>
+                <td><img src="./IMG/images18.jpeg"></td>
+                <td><img src="./IMG/images19.jpeg"></td>
+                <td><img src="./IMG/images2.jpeg"></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/images20.jpeg"></td>
+                <td><img src="./IMG/images21.jpeg"></td>
+                <td><img src="./IMG/images22.jpeg"></td>
+                <td><img src="./IMG/images23.jpeg"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="div2">
+        <table>
+            <tr>
+                <td><img src="./IMG/images24.jpeg"></td>
+                <td><img src="./IMG/images25.jpeg"></td>
+                <td><img src="./IMG/images26.jpeg"></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/images27.jpeg"></td>
+                <td><img src="./IMG/images28.jpeg"></td>
+                <td><img src="./IMG/images29.jpeg"></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/images3.jpeg"></td>
+                <td><img src="./IMG/images4.jpeg"></td>
+                <td><img src="./IMG/images5.jpeg"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="div3">
+        <table>
+            <tr>
+                <td><img src="./IMG/images6.jpeg"></td>
+                <td><img src="./IMG/images7.jpeg"></td>
+    
+            </tr>
+        
+            <tr>
+                <td><img src="./IMG/images8.jpeg"></td>
+                <td><img src="./IMG/images9.jpeg"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
